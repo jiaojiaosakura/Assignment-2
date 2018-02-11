@@ -25,7 +25,10 @@
 // Problem 1
 // write a function "hello" that always returns the string "Hello!"
 
-  function hello () {
+var greet = function (hello) {
+  return "Hello";
+};
+  console.log("Hello");
     // if you want you can declare a string variable first
     // or in this case you can just return the string directly
     // with something like "return 'Hello!'"
@@ -35,7 +38,10 @@
 // Improve your initial function by accepting a parameter
 // "name" and returning a string "Hello, [insert name]!"
 
-function greeting(name) {
+function greet(name) {
+  console.log("Hello " + name);
+}
+greet("Yujiao");
   // use the '+' operator to combine
   // strings.  So for instance, if I wanted to
   // say goodbye, I might write
@@ -47,7 +53,15 @@ function greeting(name) {
 // write a function that takes three parameters and returns an array
 // consisting of the three parameters together
 
-function returnArray (first, second, third) {
+var MyHobbies = ['music', 'cooking', 'travelling'];{
+  console.log ("music");
+  console.log ("cooking");
+  console.log ("travelling");
+  return;
+}
+
+
+
   // you can define the array using "new Array ()" or just "[ , , ]"
   // don't forget to return it
 }
